@@ -87,6 +87,13 @@ button:hover {
     background: rgba(255, 255, 255, 0.08);
 }
 
+.element-image {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
 .card h2 {
     margin: 0 0 10px;
     font-size: 1.2rem;
