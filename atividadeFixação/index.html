@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividades de Fixação - JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>15 Atividades de Fixação - JavaScript</h1>
+
+    <!-- EXERCÍCIO 1 -->
+    <div class="section">
+        <h2>Exercício 1 - Primeiro elemento na tela</h2>
+        <div id="container"></div>
+    </div>
+
+    <!-- EXERCÍCIO 2 -->
+    <div class="section">
+        <h2>Exercício 2 - Lista de frutas</h2>
+        <ul id="lista"></ul>
+    </div>
+
+    <!-- EXERCÍCIO 3 -->
+    <div class="section">
+        <h2>Exercício 3 - Cards com Template Literal</h2>
+        <div id="cards"></div>
+    </div>
+
+    <!-- EXERCÍCIO 4 -->
+    <div class="section">
+        <h2>Exercício 4 - Renderizando um array de objetos (Filmes)</h2>
+        <div id="filmes"></div>
+    </div>
+
+    <!-- EXERCÍCIO 5, 6, 7, 8 -->
+    <div class="section">
+        <h2>Exercícios 5, 6, 7, 8 - Console</h2>
+        <p>Abra o console (F12) para ver os resultados de Arrays, Objetos, Contatos e JSON.</p>
+    </div>
+
+    <!-- EXERCÍCIO 9 -->
+    <div class="section">
+        <h2>Exercício 9 - Salvando e lendo uma string (localStorage)</h2>
+        <input type="text" id="inputTexto" placeholder="Digite um texto">
+        <button onclick="salvarTexto()">Salvar</button>
+        <button onclick="carregarTexto()">Carregar</button>
+        <p id="textoCarregado"></p>
+    </div>
+
+    <!-- EXERCÍCIO 10 -->
+    <div class="section">
+        <h2>Exercício 10 - Salvando um objeto (localStorage)</h2>
+        <input type="text" id="inputNome" placeholder="Nome">
+        <input type="text" id="inputCidade" placeholder="Cidade">
+        <button onclick="salvarFormulario()">Salvar Dados</button>
+    </div>
+
+    <!-- EXERCÍCIO 11 -->
+    <div class="section">
+        <h2>Exercício 11 - Contador persistente</h2>
+        <button onclick="incrementarContador()">+</button>
+        <span id="contadorDisplay">0</span>
+        <button onclick="resetarContador()">Resetar</button>
+    </div>
+
+    <!-- EXERCÍCIO 12, 13, 14 -->
+    <div class="section">
+        <h2>Exercício 12, 13, 14 - CRUD com localStorage (Tarefas)</h2>
+        <input type="text" id="inputTarefa" placeholder="Nova tarefa">
+        <button onclick="adicionarTarefa()">Adicionar</button>
+        <div id="tarefas"></div>
+    </div>
+
+    <!-- EXERCÍCIO 15 -->
+    <div class="section">
+        <h2>Exercício 15 - CRUD Completo (Mini Agenda)</h2>
+        <input type="hidden" id="inputId">
+        <input type="text" id="inputAgendaNome" placeholder="Nome do contato">
+        <input type="text" id="inputAgendaTelefone" placeholder="Telefone">
+        <button onclick="salvarAgenda()">Salvar</button>
+        <button id="btnCancelar" onclick="cancelarEdicao()" style="display: none;">Cancelar</button>
+        <div id="agenda"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
